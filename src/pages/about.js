@@ -30,7 +30,7 @@ const AboutPage = ({ data }, location) => {
           </figure>
           <h3 id="dynamic-styles">Dynamic styles</h3>
           <p>
-            London comes with photo-centric main layout best suited to
+            Tyler comes with photo-centric main layout best suited to
             photography, graphics portfolios and other image-heavy uses.
           </p>
           <p>
