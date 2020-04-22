@@ -157,6 +157,15 @@ const ElementsPage = ({ data }, location) => {
             />
             <figcaption>Full bleed image</figcaption>
           </figure>
+          <h2 id="gallery">Image Gallery</h2>
+          <figure className=".kg-gallery-container">
+            <figure className=".kg-gallery-row">
+              <Img
+              fluid={data.largePic.childImageSharp.fluid}
+              className="kg-gallery-image"
+              />
+            </figure>
+          </figure>
           <hr />
           <h2 id="table">Table</h2>
           <table>
