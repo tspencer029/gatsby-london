@@ -165,13 +165,28 @@ const ElementsPage = ({ data }, location) => {
               className="kg-gallery-image"
               />
             </figure>
-            <figure className=".kg-gallery-row">
-              <Img
-              fluid={data.largePic.childImageSharp.fluid}
-              className="kg-gallery-image"
-              />
-            </figure>
           </figure>
+
+          <h2>Image Grid</h2>
+          <div class="grid-row">
+            <div class="grid-column">
+            <Img
+              fluid={data.smallPic.childImageSharp.fluid}
+            />
+            <Img
+              fluid={data.smallPic.childImageSharp.fluid}
+            />
+            </div>
+            <div class="grid-column">
+            <Img
+              fluid={data.smallPic.childImageSharp.fluid}
+            />
+            <Img
+              fluid={data.smallPic.childImageSharp.fluid}
+            />
+            </div>
+          </div>
+
           <hr />
           <h2 id="table">Table</h2>
           <table>
