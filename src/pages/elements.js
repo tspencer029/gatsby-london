@@ -171,18 +171,18 @@ const ElementsPage = ({ data }, location) => {
           <div class="grid-row">
             <div class="grid-column">
             <Img
-              fluid={data.smallPic.childImageSharp.fluid}
-            />
+              fluid={data.largePic.childImageSharp.fluid}            
+              />
             <Img
-              fluid={data.smallPic.childImageSharp.fluid}
+              fluid={data.largePic.childImageSharp.fluid}
             />
             </div>
             <div class="grid-column">
             <Img
-              fluid={data.smallPic.childImageSharp.fluid}
+              fluid={data.largePic.childImageSharp.fluid}
             />
             <Img
-              fluid={data.smallPic.childImageSharp.fluid}
+              fluid={data.largePic.childImageSharp.fluid}
             />
             </div>
           </div>
