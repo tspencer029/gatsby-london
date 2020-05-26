@@ -62,7 +62,7 @@
 
 .kg-gallery-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: relative;
     width: 75vw;
     min-width: 100%;
@@ -79,7 +79,7 @@
 
 .kg-gallery-image img {
     display: block;
-    margin: 0;
+    margin: 10vw;
     width: 50%;
     height: 100%;
 }
